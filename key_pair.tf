@@ -1,0 +1,4 @@
+resource "aws_key_pair" "cloud1-key-pair-1" {
+  key_name   = "cloud1-ssh-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCw4k43BgVv0eqZjL45JtrasT8gTkWBjPUz2SbBE2SRTUdzJUM+hUycTnsYPPikSQZGl69Ac+m+aAUig/AFNpC//Gjm7ASZPLoh/1cw0Y6slnbpDgXVA8ZooXuYyAoIKZIKVYyzPVebxew032rpW5GEC1IDkSwtPAtujzVYOqGvHnauMjIJaSv7MB9dugjxt1VQiAugZlJo1ht2uHYZgmgwwsjyw/mFpvfCFbR5mvJ3qb9iMCWsxRuI+fS404MdGSGYiwxY4o3UwWfcfapn9g4vKjt8DQ8oaC7j2Yi0NOHnC2Td40sUG5fwZuljgO3jXKQKDvRY1a0rSOisPH+RjSON"
+}
